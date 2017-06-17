@@ -1,13 +1,10 @@
 package com.mustafaergan.marka;
 
-import com.google.gson.Gson;
-
 public class Fabrika {
 	
-	private void markaUret() {
-		System.out.println("marka uretiyorum");
-		
-		Gson gson = new Gson();
+	public void markaUret() {
+		System.out.println("marka uretiyorum son 3");
+	
 	}
 	
 	/**
